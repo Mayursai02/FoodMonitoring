@@ -1,0 +1,52 @@
+/* frontend/src/components/Alert.css */
+
+.alert-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("C:\Users\Eswar\OneDrive\Pictures\image3.jpg"); /* Update with the actual path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.alert-box {background-color: #0a0a0ace;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+    height: 500px;
+    text-align: center;}
+
+.alert-box h2 {
+    font-size: 100px;
+    color: #ec1111; /* Red color for alerts */
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.alert-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.alert-box ul li {
+    font-size: 50px;
+    color: #e51919;
+    margin: 10px 0;
+}
+
+.back-button {
+    padding: 10px 20px;
+    background-color: #e65b0b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
